@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Test01 browser Edge">
+        <parameter name="browser" value="Edge"/>
+        <classes>
+            <class name="Test.SauceDemoTest">
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" preserve-order="true"
+          name="Test02 Browser chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Test.SauceDemoTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
